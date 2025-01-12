@@ -22,12 +22,12 @@ Main files
    This file focuses on calibrating intertemporal MPC (iMPC) for six models. It specifically computes values for the first column and subsequent columns of the M matrix.
 
 3. quant_main.py
-   This script extends the benchmark models by incorporating additional features:\
-   - Phillips curves: Includes domestic price inflation, imported goods inflation, and inflation for home goods perceived by foreigners.\
-   - Delayed substitution and consumption dynamics: Captures consumption responses over time.\
+   This script extends the benchmark models by incorporating additional features:
+   - Phillips curves: Includes domestic price inflation, imported goods inflation and inflation for home goods perceived by foreigners.
+   - Delayed substitution and consumption dynamics: Captures consumption responses over time.
    - Currency mismatch: Models balance sheet effects stemming from exchange rate fluctuations.
 
-Supporting files and folders\
+Supporting files and folders
 
 1. calib_params
    Contains calibration tables based on the Mexican devaluation case study (Burstein and Gopinath, 2015). These tables are used to parameterize all models.
